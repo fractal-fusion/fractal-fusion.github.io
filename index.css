@@ -1,36 +1,42 @@
 * {
     font-family: Helvetica;
-    color: #23232A;
+    color: rgb(231, 231, 231);
   }
 
   body {
-    background: white;
-    background-image: radial-gradient(rgb(92, 92, 92) 1px, transparent 0);
-    background-size: 40px 40px;
+    background: black;
   }
 
   .title-wrapper {
     padding: 50px;
-    background-color: rgb(255, 253, 142);
+    background-color: #000000;
+    margin: 50px 100px 100px 100px;
+    border: solid 4px transparent;
     border-radius: 25px;
-    margin: 50px 10px 100px 10px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fffb20);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
   }
 
   .section-wrapper {
     padding: 20px;
     margin: 5vh 12vw 50px 12vw;
-    background-color: rgb(255, 253, 142);
-    border-radius: 25px;
+    background-color: #000000;
   }
   
   .title {
     color: #23232A;
-    font-size: 4em;
+    font-size: 5.5em;
   }
   
   .header {
     font-size: 2.5em;
     font-family: Helvetica;
+    padding-bottom: 10px;
+    border-bottom: solid 4px transparent;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fffb20);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
   }
   
   .paragraph {
@@ -51,7 +57,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 50px
+    gap: 20px
   }
   
   .rounded {
@@ -59,8 +65,8 @@
   }
 
   .cropped {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
   }
 
   .circle-border {
@@ -68,7 +74,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    height: 550px;
-    min-width: 550px;
+    height: 340px;
+    min-width: 340px;
     border-radius: 50%;
   }
