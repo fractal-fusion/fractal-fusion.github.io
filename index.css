@@ -32,7 +32,6 @@
   .header {
     font-size: 3.5em;
     font-family: Helvetica;
-    text-align: center;
     padding: 10px;
     border-bottom: dotted 4px transparent;
     background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fcf957);
