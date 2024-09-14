@@ -78,3 +78,22 @@
     min-width: 340px;
     border-radius: 50%;
   }
+
+  .email-link {
+    font-size: 5vw;
+    text-decoration-line: none;
+    -webkit-text-fill-color: transparent;
+    background-image: radial-gradient(circle at top left, #3020ff,#fcf957);
+    background-clip: text;
+  }
+
+  .email-link::before {
+    content: "fractal.fusion27188@gmail.com";
+    position: absolute;
+    font-size: 5vw;
+    text-decoration-line: none;
+    -webkit-text-fill-color: transparent;
+    background-image: radial-gradient(circle at top left, #3020ff,#fcf957);
+    background-clip: text;
+    filter: blur(0.5rem)
+  }
