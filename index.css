@@ -1,0 +1,74 @@
+* {
+    font-family: Helvetica;
+    color: #23232A;
+  }
+
+  body {
+    background: white;
+    background-image: radial-gradient(rgb(92, 92, 92) 1px, transparent 0);
+    background-size: 40px 40px;
+  }
+
+  .title-wrapper {
+    padding: 50px;
+    background-color: rgb(255, 253, 142);
+    border-radius: 25px;
+    margin: 50px 10px 100px 10px;
+  }
+
+  .section-wrapper {
+    padding: 20px;
+    margin: 5vh 12vw 50px 12vw;
+    background-color: rgb(255, 253, 142);
+    border-radius: 25px;
+  }
+  
+  .title {
+    color: #23232A;
+    font-size: 4em;
+  }
+  
+  .header {
+    font-size: 2.5em;
+    font-family: Helvetica;
+  }
+  
+  .paragraph {
+    margin: 0 5% 50px 5%;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px
+  }
+
+  .center-ver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px
+  }
+  
+  .rounded {
+    border-radius: 50%;
+  }
+
+  .cropped {
+    height: 500px;
+    width: 500px;
+  }
+
+  .circle-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 550px;
+    min-width: 550px;
+    border-radius: 50%;
+  }
