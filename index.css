@@ -13,7 +13,7 @@
     margin: 50px 100px 100px 100px;
     border: solid 4px transparent;
     border-radius: 25px;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fffb20);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fcf957);
     background-origin: border-box;
     background-clip: padding-box, border-box;
   }
@@ -34,7 +34,7 @@
     font-family: Helvetica;
     padding-bottom: 10px;
     border-bottom: solid 4px transparent;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fffb20);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fcf957);
     background-origin: border-box;
     background-clip: padding-box, border-box;
   }
