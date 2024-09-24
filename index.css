@@ -1,100 +1,137 @@
 * {
-    font-family: Helvetica;
-    color: rgb(231, 231, 231);
-  }
+  font-family: Helvetica;
+  color: rgb(231, 231, 231);
+}
 
-  body {
-    background: black;
-  }
+body {
+  background: black;
+}
 
-  .title-wrapper {
-    padding: 50px;
-    background-color: #000000;
-    margin: 50px 100px 100px 100px;
-    border: solid 4px transparent;
-    border-radius: 25px;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fcf957);
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-  }
+.title-wrapper {
+  padding: 50px;
+  background-color: #000000;
+  margin: 50px 100px 100px 100px;
+  border: solid 4px transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, hsl(244deg 100% 56%) 0%,hsl(267deg 68% 59%) 42%,hsl(300deg 33% 61%) 59%, hsl(13deg 47% 72%) 73%,hsl(46deg 81% 67%) 85%,hsl(59deg 100% 52%) 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  gap: 50px
+}
 
-  .section-wrapper {
-    padding: 20px;
-    margin: 5vh 12vw 50px 12vw;
-    background-color: #000000;
-  }
-  
-  .title {
-    color: #23232A;
-    font-size: 5.5em;
-  }
-  
-  .header {
-    font-size: 3.5em;
-    font-family: Helvetica;
-    padding: 10px;
-    border-bottom: dotted 4px transparent;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, #3020ff,#fcf957);
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
-  }
-  
-  .paragraph {
-    margin: 0 5% 50px 5%;
-    font-size: 2em;
-    text-align: center;
-    line-height: 1.5em;
-  }
-  
-  .center {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 50px
-  }
+.section-wrapper {
+  padding: 20px;
+  margin: 5vh 12vw 50px 12vw;
+  background-color: #000000;
+}
 
-  .center-ver {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px
-  }
-  
-  .rounded {
-    border-radius: 50%;
-  }
+.title {
+  color: #23232A;
+  font-size: 5.5em;
+}
 
-  .cropped {
-    height: 300px;
-    width: 300px;
-  }
+.header {
+  font-size: 3.5em;
+  font-family: Helvetica;
+  text-align: center;
+  padding: 10px;
+  border-bottom: dotted 4px transparent;
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), radial-gradient(circle at top left, hsl(244deg 100% 56%) 0%,hsl(267deg 68% 59%) 42%,hsl(300deg 33% 61%) 59%, hsl(13deg 47% 72%) 73%,hsl(46deg 81% 67%) 85%,hsl(59deg 100% 52%) 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
 
-  .circle-border {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    height: 340px;
-    min-width: 340px;
-    border-radius: 50%;
-  }
+.paragraph {
+  margin: 0 5% 50px 5%;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.5em;
+}
 
-  .email-link {
-    font-size: 5vw;
-    text-decoration-line: none;
-    -webkit-text-fill-color: transparent;
-    background-image: radial-gradient(circle at top left, #3020ff,#fcf957);
-    background-clip: text;
-  }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
-  .email-link::before {
-    content: "fractal.fusion27188@gmail.com";
-    position: absolute;
-    font-size: 5vw;
-    text-decoration-line: none;
-    -webkit-text-fill-color: transparent;
-    background-image: radial-gradient(circle at top left, #3020ff,#fcf957);
-    background-clip: text;
-    filter: blur(0.5rem)
-  }
+.center-ver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px
+}
+
+.icons {
+  display: flex;
+  padding: 40px;
+  margin: 0 20vw 0 20vw;
+}
+
+.fa-brands, .fa-brands::before {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    45deg,
+    hsl(244deg 100% 56%) 0%,
+    hsl(267deg 68% 59%) 42%,
+    hsl(300deg 33% 61%) 59%,
+    hsl(13deg 47% 72%) 73%,
+    hsl(46deg 81% 67%) 85%,
+    hsl(59deg 100% 52%) 100%
+  );
+  background-clip: text;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.cropped {
+  height: 300px;
+  width: 300px;
+}
+
+.circle-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 340px;
+  min-width: 340px;
+  border-radius: 50%;
+}
+
+.email-link {
+  font-size: 5vw;
+  text-decoration-line: none;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    45deg,
+    hsl(244deg 100% 56%) 0%,
+    hsl(267deg 68% 59%) 42%,
+    hsl(300deg 33% 61%) 59%,
+    hsl(13deg 47% 72%) 73%,
+    hsl(46deg 81% 67%) 85%,
+    hsl(59deg 100% 52%) 100%
+  );
+  background-clip: text;
+}
+
+.email-link::before {
+  content: "fractal.fusion27188@gmail.com";
+  position: absolute;
+  font-size: 5vw;
+  text-decoration-line: none;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    45deg,
+    hsl(244deg 100% 56%) 0%,
+    hsl(267deg 68% 59%) 42%,
+    hsl(300deg 33% 61%) 59%,
+    hsl(13deg 47% 72%) 73%,
+    hsl(46deg 81% 67%) 85%,
+    hsl(59deg 100% 52%) 100%
+  );
+  background-clip: text;
+  filter: blur(15px)
+}
